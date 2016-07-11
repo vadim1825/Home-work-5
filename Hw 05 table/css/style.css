@@ -1,0 +1,83 @@
+body {
+	background-color: #dadada;
+}
+
+div {
+	width: 420px;
+	height: 538px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+td {
+	border:7px solid #000;
+	height: 50px;
+	width: 50px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+.yellow {
+	border-right-color: yellow;
+	border-bottom-color: yellow;
+	background-color: yellow;
+}
+
+.yellow_1 {
+	border-right-color: yellow;
+	border-top-color: yellow;
+	background-color: yellow;
+}
+
+.yellow_2 {
+	border-right-color: yellow;
+	background-color: yellow;
+}
+
+.yellow_3 {
+	border-bottom-color: yellow;
+	border-left-color: yellow;
+	background-color: yellow;
+}
+
+.white {
+	border-bottom-color: white;
+	border-right-color: white;
+}
+
+.white_1 {
+	border-right-color: white;
+}
+
+.white_2 {
+	border-bottom-color: white;
+}
+
+.white_3 {
+	border-left-color: white;
+}
+
+.white_4 {
+	border-left-color: white;
+	border-top-color: white;
+}
+
+.white_5 {
+	border-top-color: white;
+}
+
+.white_blue {
+	border-right-color: blue;
+	background-color: blue;
+}
+
+.red {
+	background-color: red;
+}
+
+.black {
+	background-color: rgba(0,0,0,0.9);
+}

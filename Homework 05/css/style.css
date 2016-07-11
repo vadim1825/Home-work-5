@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-medium-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-medium-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-medium-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-medium-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+	height: 1064px;
+	width: 1349px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top_menu {
+    width: 1349px;
+	height: 36px;
+	background-image: url(../img/top-menu.png);
+    position: relative;
+}
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+.list_1 {
+    position: absolute;
+    right: 380px;
+    top: 0px;
+    height: 36px;
+    width: 425px;
+}
+
+.list_1 li {
+    display: inline-block;
+    height: 36px;
+    vertical-align: top;  
+}
+
+.list_1 li a {
+    display: block;
+    text-decoration: none;
+    color: #60b5ed;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    width: 50px;
+    height: 26px;
+    padding: 10px 12px 0px 12px;
+}
+
+.list_1 li .large {
+    width: 85px;
+}
+
+.list_1 a:hover {
+    background-color: #4eabda;
+    color: white;
+    font-weight: bold;
+}
+
+.list_2 {
+    height: 36px;
+    width: 161px;
+    position: absolute;
+    top: 0px;
+    right: 221px;
+}
+
+.list_2_border {
+    height: 31px;
+    width: 160px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #56a2dc;
+    position: absolute;
+    top: 2px;
+    right: 0px;
+}
+
+
+.ofertas {
+    display: block;
+    height: 36px;
+    width: 160px;
+}
+
+.flag {
+    position: absolute;
+    top: 4px;
+    right: 120px;
+}
+
+.text {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    color: #feffff;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+}
+
+.list_2:hover {
+    background: linear-gradient(to bottom,  rgba(101,168,228,1) 0%,rgba(66,153,210,1) 100%);
+}
+
+.list_2 .ofertas:hover {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.3) 80%,rgba(0,0,0,0.3) 100%);
+}
+
+.list_3 {
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    height: 36px;
+    width: 190px;
+}
+
+.list_3 li {
+    display: inline-block;
+    height: 26px;
+    vertical-align: top;
+    padding: 10px 3px 0px 5px;
+    color: #feffff;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+}
+
+.list_3 li a {
+    color: #feffff;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+}
+
+.list_3_1 {
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 31px;
+    height: 36px;
+    width: 190px;
+}
+
+.Ola {
+   display: block;
+   position: absolute;
+    top: 2px;
+    right: 1px;
+    height: 31px;
+    width: 190px;
+    border-right: 1px solid;
+    border-color: #56a2dc;
+
+}
+
+.list_3_1:hover {
+    background: linear-gradient(to bottom,  rgba(101,168,228,1) 0%,rgba(66,153,210,1) 100%);
+}
+
+.list_3_1 .list_3:hover {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(0,0,0,0.3) 80%,rgba(0,0,0,0.3) 100%);
+}
+
+.forma {
+    height: 614px;
+    width: 562px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -307px;
+    margin-left: -281px;
+}
+
+.up {
+    height: 62px;
+    width: 562px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Helvetica Neue';
+    line-height: 62px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.main {
+    height: 550px;
+    width: 562px;
+    background: rgba(0,0,0,0.5);
+}
+
+form {
+    height: 450px;
+    width: 280px;
+    position: absolute;
+    left: 141px;
+    top: 100px;
+}
+
+.LoginF {
+    height: 36px;
+    width: 275px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+
+.background {
+    height: 36px;
+    width: 275px;
+    background-image: url(../img/facebook.png);
+    position: absolute;
+    top: 0px;
+    left: 2px;
+}
+
+.LoginF:hover {
+    cursor: pointer;
+}
+
+.hr_1,
+.hr_2 {
+    height: 2px;
+    width: 123px;
+    background-color: #666666;
+    background-image: linear-gradient(transparent 50%, #000000 50%);
+}
+
+.hr_1 {
+    position: absolute;
+    top: 72px;
+    left: 2px;
+}
+
+.hr_2 {
+    position: absolute;
+    top: 72px;
+    right: 3px;
+}
+
+.OU {
+    width: 25px;
+    position: absolute;
+    left: 130px;
+    top: 65px;
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+}
+
+.first_name,
+.last_name,
+.email,
+.passphrase,
+.submit {
+    height: 35px;
+    width: 275px;
+    border: none;
+    box-shadow: 0px 1px 0 0 #4b4b4b;
+    background-image: linear-gradient(to top, #0e0d0d, #111111);
+    color: #cccccc;
+    text-indent: 20px;
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+}
+
+.first_name {
+    position: absolute;
+    top: 100px;
+    left:2px;
+    z-index: 1;
+}
+
+.last_name {
+    position: absolute;
+    top: 150px;
+    left:2px;
+    z-index: 1;
+}
+
+.email {
+    position: absolute;
+    top: 200px;
+    left:2px;
+    z-index: 1;
+}
+
+.passphrase {
+    position: absolute;
+    top: 250px;
+    left:2px;
+    z-index: 1;
+}
+
+.submit {
+    position: absolute;
+    top: 300px;
+    left:2px;
+    z-index: 1;
+}
+
+.first_name:hover,
+.last_name:hover,
+.email:hover,
+.passphrase:hover,
+.submit:hover {
+    background-image: none;
+    background-image: linear-gradient(to top, #1b5288, #12385d);
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(47,123,197,0.77);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(47,123,197,0.77);
+    box-shadow: 0px 0px 8px 3px rgba(47,123,197,0.77);
+}
+
+.send {
+    position: absolute;
+    top: 350px;
+    left: 2px;
+    color: #cccccc;
+    font:14px 'Helvetica Neue';
+}
+
+.create {
+    height: 36px;
+    width: 150px;
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    background-image: linear-gradient(to top, #3680b0, #70b9fa);
+}
+
+.account {
+    height: 36px;
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border:none;
+    background-color: rgba(255,255,255,0);
+    color: white;
+}
+
+.account:hover {
+    cursor: pointer;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    top: 560px;
+    left: 140px;
+    color: #cccccc;
+    font-size: 11px;
+    font-family: 'Helvetica Neue';
+}
+
+.footer_1 {
+    display: block;
+    position: absolute;
+    top: 580px;
+    left: 227px;
+    color: #cccccc;
+    font-size: 11px;
+    font-family: 'Helvetica Neue';
+}

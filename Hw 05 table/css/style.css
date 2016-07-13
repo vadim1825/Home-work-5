@@ -3,7 +3,7 @@ body {
 }
 
 div {
-	width: 420px;
+	width: 406px;
 	height: 538px;
 	margin: 0 auto;
 	background-color: white;
@@ -21,25 +21,25 @@ table {
 }
 
 .yellow {
-	border-right-color: yellow;
+	border-right:0;
 	border-bottom-color: yellow;
 	background-color: yellow;
 }
 
 .yellow_1 {
-	border-right-color: yellow;
+	border-right:0;
 	border-top-color: yellow;
 	background-color: yellow;
 }
 
 .yellow_2 {
-	border-right-color: yellow;
+	border-right:0;
 	background-color: yellow;
 }
 
 .yellow_3 {
 	border-bottom-color: yellow;
-	border-left-color: yellow;
+	border-left:0;
 	background-color: yellow;
 }
 
@@ -49,7 +49,7 @@ table {
 }
 
 .white_1 {
-	border-right-color: white;
+	border-right:0;
 }
 
 .white_2 {
@@ -57,11 +57,11 @@ table {
 }
 
 .white_3 {
-	border-left-color: white;
+	border-left:0;
 }
 
 .white_4 {
-	border-left-color: white;
+	border-left:0;
 	border-top-color: white;
 }
 
@@ -69,8 +69,13 @@ table {
 	border-top-color: white;
 }
 
+.white_6 {
+	border-right:0;
+	border-bottom-color: white;
+}
+
 .white_blue {
-	border-right-color: blue;
+	border-right:0;
 	background-color: blue;
 }
 
